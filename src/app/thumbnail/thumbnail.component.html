@@ -1,4 +1,4 @@
-<div class="thumbnail" [class.limit-width]="limitWidth" *ngVar="(isLoading$ | async) as isLoading">
+<div class="thumbnail thumbnail-edu" [class.limit-width]="limitWidth" *ngVar="(isLoading$ | async) as isLoading">
   <div *ngIf="isLoading" class="thumbnail-content outer">
     <div class="inner">
       <div class="centered">
@@ -12,8 +12,9 @@
          [src]="src | dsSafeUrl" [alt]="alt | translate" (error)="errorHandler()" (load)="successHandler()">
     <div *ngIf="src === null && !isLoading" class="thumbnail-content outer">
       <div class="inner">
-        <div class="thumbnail-placeholder centered lead">
-          {{ placeholder | translate }}
+        <div class="thumbnail-placeholder centered lead thumbnail-placeholder-edu">
+          <!--          {{ placeholder | translate }}-->
+          <img src="assets/edutask/images/thumbnail-empty.svg" alt="{{ placeholder | translate }}">
         </div>
       </div>
     </div>
