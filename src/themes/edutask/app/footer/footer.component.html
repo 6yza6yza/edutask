@@ -7,7 +7,8 @@
 
         <!--Grid column-->
         <div class="col-lg-12 col-md-12 mb-4 mb-lg-0">
-          <p class="footer-text-edu">The first phase of this project is supported by the Municipality of Prishtina through a grant to establish
+          <p class="footer-text-edu">The first phase of this project is supported by the Municipality of Prishtina
+            through a grant to establish
             the archive and initiate the collection covering the period of 1990's.
             Hosting and data storage is enabled by the Kosovo National Research and Education Network.</p>
         </div>
@@ -22,22 +23,23 @@
 
         <!--Grid column-->
         <div class="">
-          <div>
+          <div class="mb-2">
             <p class="footer-worth-mention-edu text-left">Implemented by:</p>
           </div>
           <div>
-            <img width="125" src="assets/edutask/images/edutask-footer-logo.svg" alt="">
+            <a href="https://edu-task.com/"><img width="125" src="assets/edutask/images/edutask-footer-logo.svg" alt=""></a>
           </div>
         </div>
         <div class="row">
           <div>
             <p class="footer-worth-mention-edu">Supported by:</p>
           </div>
-          <div>
-            <img width="75" src="assets/edutask/images/komuna_e_prishtines.svg" alt="">
+          <div class="mx-4">
+            <a href="https://kk.rks-gov.net/prishtine/"><img width="75"
+                                                             src="assets/edutask/images/komuna_e_prishtines.png" alt=""></a>
           </div>
           <div class="d-flex align-items-end">
-            <img width="85" src="assets/edutask/images/kren.svg" alt="">
+            <a href="https://kren-ks.eu/"><img width="85" src="assets/edutask/images/kren.png" alt=""></a>
           </div>
         </div>
         <!--Grid column-->
@@ -56,24 +58,24 @@
            href="http://www.dspace.org/">{{ 'footer.link.dspace' | translate}}</a>
         {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }}
       </p>
-      <!--      <ul class="footer-info list-unstyled small d-flex justify-content-center mb-0">-->
-      <!--        <li>-->
-      <!--          <a class="text-white" href="javascript:void(0);"-->
-      <!--             (click)="showCookieSettings()">{{ 'footer.link.cookies' | translate}}</a>-->
-      <!--        </li>-->
-      <!--        <li *ngIf="showPrivacyPolicy">-->
-      <!--          <a class="text-white"-->
-      <!--             routerLink="info/privacy">{{ 'footer.link.privacy-policy' | translate}}</a>-->
-      <!--        </li>-->
-      <!--        <li *ngIf="showEndUserAgreement">-->
-      <!--          <a class="text-white"-->
-      <!--             routerLink="info/end-user-agreement">{{ 'footer.link.end-user-agreement' | translate}}</a>-->
-      <!--        </li>-->
-      <!--        <li>-->
-      <!--          <a class="text-white"-->
-      <!--             routerLink="info/feedback">{{ 'footer.link.feedback' | translate}}</a>-->
-      <!--        </li>-->
-      <!--      </ul>-->
+      <ul class="footer-info list-unstyled small d-flex justify-content-center mb-0">
+        <li class="footer-text-edu">
+          <a class="footer-text-edu" href="javascript:void(0);"
+             (click)="showCookieSettings()">{{ 'footer.link.cookies' | translate}}</a>
+        </li>
+        <li class="footer-text-edu" *ngIf="showPrivacyPolicy">
+          <a class="footer-text-edu"
+             routerLink="info/privacy">{{ 'footer.link.privacy-policy' | translate}}</a>
+        </li>
+        <li class="footer-text-edu" *ngIf="showEndUserAgreement">
+          <a class="footer-text-edu"
+             routerLink="info/end-user-agreement">{{ 'footer.link.end-user-agreement' | translate}}</a>
+        </li>
+        <li class="footer-text-edu">
+          <a class="footer-text-edu"
+             routerLink="info/feedback">{{ 'footer.link.feedback' | translate}}</a>
+        </li>
+      </ul>
     </div>
   </div>
   <!-- Copyright -->

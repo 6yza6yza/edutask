@@ -48,11 +48,6 @@ a {
   box-shadow: none;
 }
 
-.form-control {
-  border-radius: 0;
-  border-color: #CCCCCC;
-}
-
 a:focus,
 button:focus,
 input:focus,
@@ -93,11 +88,13 @@ h2 {
   background-color: #0C966F;
   border-color: transparent;
   padding: 0;
+
   img {
     height: 40px;
     width: 40px;
   }
 }
+
 .btn-settings-edu:hover {
   padding: 0;
   background-color: #0C966F;
@@ -183,6 +180,49 @@ h2 {
   font-size: 26px;
   font-weight: 350;
   height: 45px;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid #CCCCCC;
+  box-shadow: none;
+}
+
+.about-us-edu-red {
+  color: red;
+}
+
+.about-us-list-edu {
+  list-style-type: none;
+}
+
+.about-us-edu-bold {
+  font-weight: bold;
+}
+
+.about-us-edu-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.home-page-news-edu {
+  height: 300px;
+}
+
+.home-page-news-content-edu {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fffaf0;
+}
+.home-page-news-link-edu {
+  border-bottom: 1px solid #fffaf0;
+  text-decoration: none !important;
+  span {
+    font-weight: 500;
+  }
+}
+.home-page-news-link-edu:hover {
+  text-decoration: none !important;
 }
 
 // end  modified from edutask

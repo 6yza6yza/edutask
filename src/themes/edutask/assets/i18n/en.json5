@@ -1,7 +1,8 @@
 {
   // DSpace default: "All of DSpace"
-  "menu.section.browse_global": "All of Edutask",
+  "menu.section.browse_global": "Search",
 
   // DSpace default: "DSpace Angular :: "
   "repository.title.prefix": "Edutask :: ",
+  "home.top-level-communities.head": "Communities in Edu Arkiva"
 }

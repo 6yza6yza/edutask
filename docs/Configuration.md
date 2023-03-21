@@ -1,4 +1,4 @@
-# Configuration
+  # Configuration
 
 Default configuration file is located at `config/config.yml`. All configuration options should be listed in the default typescript file `src/config/default-app-config.ts`. Please do not change this file directly! To override the default configuration values, create local files that override the parameters you need to change. You can use `config.example.yml` as a starting point.
 
@@ -53,7 +53,7 @@ rest:
   nameSpace: /server
 }
 ```
-
+F
 Alternately you can set the following environment variables. If any of these are set, it will override all configuration files:
 ```
   DSPACE_REST_SSL=true

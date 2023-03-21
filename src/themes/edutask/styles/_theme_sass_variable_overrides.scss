@@ -2,15 +2,16 @@
 // variables to CSS equivalents (see src/styles/_bootstrap_variables_mapping.scss). However Bootstrap
 // still uses Sass variables internally. So if you want to override bootstrap (or other sass
 // variables) you can do so here. Their CSS counterparts will include the changes you make here
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
- $font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
- $gray-700: #808080 !default;  // Bootstrap $gray-700
- $gray-100: #CCCCCC !default;  //           $gray-100
+$gray-700: #808080 !default; // Bootstrap $gray-700
+$gray-100: #CCCCCC !default; //           $gray-100
 
 // Color system
 
-$white:    #E6E6E6 !default;
+$white: #E6E6E6 !default;
 $gray-100: #DEDFDE !default;
 $gray-200: #DEDFDE !default;
 $gray-300: #CCCCCC !default;
@@ -20,7 +21,7 @@ $gray-600: #808080 !default;
 $gray-700: #808080 !default;
 $gray-800: #808080 !default;
 $gray-900: #808080 !default;
-$black:    #000 !default;
+$black: #000 !default;
 
 $grays: () !default;
 $grays: map-merge(
@@ -37,22 +38,22 @@ $grays: map-merge(
     ),
     $grays
 );
- $blue:   #0C966F !default;
- $green:  #94BA65 !default;
- $cyan:   #0C966F !default;
- $yellow: #ec9433 !default;
- $red:    #CF4444 !default;
- $dark:   darken($blue, 17%) !default;
+$blue: #0C966F !default;
+$green: #94BA65 !default;
+$cyan: #0C966F !default;
+$yellow: #ec9433 !default;
+$red: #CF4444 !default;
+$dark: darken($blue, 17%) !default;
 
- $theme-colors: (
-   primary: $blue,
-   secondary: $gray-700,
-   success: $green,
-   info: $cyan,
-   warning: $yellow,
-   danger: $red,
-   light: $gray-100,
-   dark: $dark
- ) !default;
+$theme-colors: (
+  primary: $blue,
+  secondary: $gray-700,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: $gray-100,
+  dark: $dark
+) !default;
 
- $link-color: map-get($theme-colors, info) !default;
+$link-color: map-get($theme-colors, info) !default;
