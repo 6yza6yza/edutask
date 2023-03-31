@@ -4,5 +4,6 @@
 
   // DSpace default: "DSpace Angular :: "
   "repository.title.prefix": "Edutask :: ",
-  "home.top-level-communities.head": "Communities in Edu Arkiva"
+  "home.top-level-communities.head": "Communities in Edu Arkiva",
+  "info.privacy.head": "Privacy Statement for Eduarkiva",
 }
