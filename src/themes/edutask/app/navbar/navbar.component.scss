@@ -16,6 +16,7 @@ nav.navbar {
     height: 0;
     &.open {
       height: auto;
+      padding: 15px !important;
       min-height: 100vh; //doesn't matter because wrapper is sticky
     }
   }

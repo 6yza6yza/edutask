@@ -214,6 +214,24 @@ h2 {
   font-weight: 400;
   color: #fffaf0;
 }
+@media (max-width: 800px) {
+  .edutask-logo {
+    width: 100%;
+    height: 40px;
+  }
+  .home-page-news-content-edu {
+    font-size: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .home-page-news-content-edu {
+    font-size: 12px;
+  }
+  .edutask-logo {
+    width: 100%;
+    height: 40px;
+  }
+}
 .home-page-news-link-edu {
   border-bottom: 1px solid #fffaf0;
   text-decoration: none !important;
